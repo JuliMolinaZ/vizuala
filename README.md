@@ -24,3 +24,13 @@ El archivo `netlify.toml` define la configuración de despliegue:
 - **Directorio de publicación**: `.next`
 - **Plugin**: `@netlify/plugin-nextjs`
 - **Versión de Node**: `18`
+
+## Lint y pruebas
+
+Asegúrate de instalar las dependencias antes de ejecutar estos comandos:
+
+```bash
+npm install
+npm run lint
+npm test
+```
