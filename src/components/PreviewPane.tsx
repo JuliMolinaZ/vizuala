@@ -30,19 +30,11 @@ import {
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Switch } from "@/components/ui/switch";
+import type { PreviewPaneProps } from "@/types";
 
 // Importar html2pdf solo en el cliente
 let html2pdf: any = null;
 
-interface ReportPreviewItem {
-  id: string;
-  name: string;
-  previewHtml: string;
-}
-
-interface PreviewPaneProps {
-  reports: ReportPreviewItem[];
-}
 
 interface PDFOptions {
   pageSize: 'one_long_page' | 'a0' | 'a1' | 'a2' | 'a3' | 'a4' | 'a5' | 'a6' | 'letter' | 'legal';
