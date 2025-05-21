@@ -1,9 +1,7 @@
-import ChatCanvasUI from "@/components/ChatCanvasUI";
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <main>
-      <ChatCanvasUI />
-    </main>
-  );
+  redirect('/login');
+  // Este return no se ejecuta debido a la redirección, pero es necesario para TypeScript.
+  return null;
 } 
