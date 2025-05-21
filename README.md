@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Pruebas manuales
+
+Para comprobar la generación y descarga de PDF desde `PreviewPane`:
+
+1. Inicia el servidor con `npm run dev` y abre la aplicación en `http://localhost:3000`.
+2. Selecciona un informe en la barra lateral y haz clic en **Ver Informe Completo**.
+3. Dentro del diálogo pulsa **Descargar PDF**. Se debería iniciar la descarga tras unos segundos.
+4. Abre el archivo descargado y verifica que el contenido coincide con la vista previa.
