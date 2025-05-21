@@ -46,8 +46,12 @@ export interface ChatWindowProps {
   isLoading?: boolean;
 }
 
-export interface PreviewPaneProps {
+export interface ReportPreviewItem {
+  id: string;
+  name: string;
   previewHtml: string;
-  onEdit?: (html: string) => void;
-  isEditable?: boolean;
-} 
+}
+
+export interface PreviewPaneProps {
+  reports: ReportPreviewItem[];
+}
