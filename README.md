@@ -14,7 +14,8 @@ npm run dev
 
 ## Variables de entorno
 
-No se requiere ninguna variable de entorno adicional para el desarrollo local.
+No se requiere ninguna variable de entorno adicional para el desarrollo local, 
+excepto cuando se utilice el endpoint `/api/chat`. En ese caso debe estar definida la variable `OPENAI_API_KEY`.
 
 ## Despliegue en Netlify
 
