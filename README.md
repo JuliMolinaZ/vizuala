@@ -2,10 +2,6 @@
 
 Aplicación que permite a los usuarios iniciar sesión y generar o visualizar informes.
 
-## Instalación
-
-1. Asegúrate de tener **Node.js 18** instalado.
-2. Ejecuta `npm install` para descargar las dependencias.
 
 ## Desarrollo
 
