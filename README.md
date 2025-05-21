@@ -29,5 +29,3 @@ El archivo `netlify.toml` define la configuración de despliegue:
 - **Directorio de publicación**: `.next`
 - **Plugin**: `@netlify/plugin-nextjs`
 - **Versión de Node**: `18`
-
-Netlify usará estos parámetros para compilar y desplegar la aplicación automáticamente.
