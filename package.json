@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "jest"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",
@@ -43,6 +44,13 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "@types/jest": "^29.5.11",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.4.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "identity-obj-proxy": "^3.0.0"
   }
 }
